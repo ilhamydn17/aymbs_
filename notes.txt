@@ -1,3 +1,3 @@
 
-tujuan : website untuk membuat notes/catatan, melihat jadwal kuliah, membuat catatan u/ meringkas materi mata kuliah
+tujuan : website untuk membuat notes/catatan, melihat jadwal kuliah, reminder
 nama website : ayoAmbis.

@@ -11,7 +11,34 @@
 		/>
 		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body>
-		<h1>hello ini adalah halaman catatan</h1>
+	<body style="background-color: #21d2b1">
+		<div class="container-note">
+			<h2>Buat Catatanmu</h2>
+			<div class="content-table">
+				<table>
+					<tr>
+						<td>
+							<input type="text" name="title" id="title" placeholder="Judul" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<textarea
+								name="note"
+								id="note"
+								cols="30"
+								rows="10"
+								placeholder="tulis catatan .."
+							></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button type="submit">Simpan</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
 	</body>
 </html>
