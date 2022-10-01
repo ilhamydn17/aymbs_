@@ -8,7 +8,7 @@ body {
 }
 
 .yellow {
-	color: #fae100;
+	color: #fcdc0a;
 }
 
 header {
@@ -18,6 +18,7 @@ header {
 	background-position: center;
 	height: 600px;
 	box-sizing: border-box;
+	/* border-radius: 0 0 26px 26px; */
 }
 
 .konten-nav {
@@ -35,6 +36,10 @@ header {
 .konten-nav .logo h2 {
 	margin: 0;
 	color: #2b2b2b;
+}
+
+.list a:hover {
+	border-bottom: 2px solid rgb(212, 211, 211);
 }
 
 .konten-nav .list ul li {
@@ -95,6 +100,7 @@ header {
 	/* transition: 0.15s; */
 }
 
+/* FOR FEATURE BUAT CATATAN */
 .container-note {
 	width: 750px;
 	border: 1px solid rgb(225, 225, 225);
@@ -117,7 +123,7 @@ table {
 
 table input,
 textarea,
-button {
+#btn-note {
 	width: 85%;
 	padding: 8px;
 	font-family: 'Poppins', sans-serif;
@@ -127,13 +133,172 @@ button {
 	border-radius: 3px;
 }
 
-button {
+#btn-note {
 	background-color: #f07f4f;
 	border: #fff;
 	color: #fff;
 }
 
-button:hover {
+#btn-note:hover {
 	background-color: #f05817;
 	font-weight: bold;
 }
+/* END BUAT CATATAN */
+
+/* FOR FEATURE BACA BUKU */
+.container-book {
+	width: 90%;
+	background-color: #fcfdfd;
+	margin: 50px auto;
+	border-radius: 3px;
+	padding: 20px;
+}
+
+#customers {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#customers td,
+#customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+	background-color: #f2e6c6;
+}
+
+#customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04aa6d;
+	color: white;
+}
+
+#customers .org {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #279351;
+	padding: 6px;
+	color: #fff;
+	font-size: 15px;
+	border-radius: 6px;
+}
+
+#customers .org:hover {
+	background-color: #1f683b;
+}
+
+#customers .red {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #f56f46;
+	padding: 6px;
+	color: #fff;
+	font-size: 15px;
+	border-radius: 6px;
+}
+
+#customers .red:hover {
+	background-color: #f8511e;
+}
+
+.add-book {
+	width: 300px;
+	text-align: center;
+	margin: 20px auto 0;
+	/* border: 1px solid salmon; */
+}
+
+.add-book .btn-book {
+	width: 60%;
+	padding: 8px;
+	font-size: 14px;
+	font-family: sans-serif;
+	border: 1px solid #fff;
+	border-radius: 6px;
+	color: #fff;
+	background-color: #faab00;
+}
+
+.add-book .btn-book:hover {
+	background-color: #dc9700;
+}
+
+.header {
+	width: 300px;
+	margin-left: 112px;
+
+	/* border: 1px	 solid salmon; */
+}
+/* END BACA BUKU */
+
+/* FOR FEATURE REMINDER */
+.container-reminder {
+	width: 50%;
+	background-color: #e4f9f5;
+	margin: 100px auto;
+	padding: 20px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.box-inputs {
+	width: 350px;
+	margin: 0px auto;
+}
+
+.box-inputs input {
+	height: 10px;
+}
+
+main {
+	margin-bottom: 90px;
+}
+
+.input-reminder button {
+	width: 100px;
+	padding: 6px;
+	background-color: #fb9f4f;
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+	color: #fff;
+	border: 1px solid rgb(178, 177, 177);
+	border-radius: 3px;
+}
+
+.input-reminder button:hover {
+	background-color: #f87f1e;
+}
+/* END REMINDER */
+
+/* FOR FOOTER */
+footer {
+	background-color: #21d2b1;
+	padding: 10px 10px 10px 0px;
+	/* border-radius: 26px 26px 0 0; */
+}
+
+footer .container-footer {
+	margin: 0;
+}
+
+.desc {
+	width: 500px;
+	margin: 0px auto;
+	/* font-size: px; */
+	text-align: center;
+}
+
+.copyright {
+	text-align: center;
+	width: 500px;
+	/* color: rgb(44, 43, 43); */
+	font-weight: bold;
+	margin: 45px auto 0px;
+}
+
+/* END FOOTER */
