@@ -291,6 +291,7 @@ footer .container-footer {
 	margin: 0px auto;
 	/* font-size: px; */
 	text-align: center;
+	border-bottom: 1px solid rgb(234, 234, 234);
 }
 
 .copyright {
